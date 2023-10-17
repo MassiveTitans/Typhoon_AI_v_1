@@ -1,0 +1,178 @@
+{
+  "intents": [
+    {
+      "tag": "ism",
+      "patterns": [ "Sen isming nima?", "Sen noming nima?", "Isming", "Noming" ],
+      "responses": [ "Meni ismim TyphonAI" ]
+    },
+    {
+      "tag": "tanishuv",
+      "patterns": [ "Sen kimsan?", "Sen nimasan?", "Kimsan?", "Nimasan?", "O'zingni tanishtir?'" ],
+      "responses": [ "Meni ismim TyphonAI bo'lib, Typhoon jamoasi asoschisi Javlon Yaxshiliqov tomonidan ishlabchiqilganman.", "Men AI chatbot hisoblanaman. Sizga qanday yordam bera olaman? ", "Sun'iy intellekt robotman" ]
+    },
+    {
+      "tag": "tanishuv",
+      "patterns": [ "Sen qaysi dasturlash tilida yozilgansan?", "yozilgan dasturlash tiling" ],
+      "responses": [ "Python", "Python dasturlash tilida, Sizga qanday yordam bera olaman?" ]
+    },
+
+
+    {
+      "tag": "tanishuv bank",
+      "patterns": [ "Bank nima?", "bank" ],
+      "responses": [ "Bank bu kredit-moliya muassasasi; asosan, vaqtincha boʻsh pul mablagʻlarini toʻplash, korxonalarga va umuman pulga muhtojlarga kredit, ssuda berish, naqd pulsiz hisob-kitoblarini amalga oshirish, pul va turli qimmatbaho qogʻozlar chiqarish, oltin va chet el valyutalari bilan bogʻliq operatsiyalarni bajarish va boshqa faoliyatlar bilan shugʻullanadi." ]
+    },
+
+    {
+      "tag": "tanishuv_bank",
+      "patterns": [ "Sen qaysi bank uchun maxsus ishlab chiqilgansan?", "Nima uchun ishlab chiqiligansan", "Seni vazifang", "seni ishing" ],
+      "responses": [ "Men aloqabank.uz saytidagi ochiq ma'lumotlardan foydalanib o'qitilgan sun'iy intellekt dasturiy ta'minotiman. Men huquqiy maslahat berish uchun ishlab chiqilganman." ]
+    },
+
+
+    {
+      "tag": "omonat turi",
+      "patterns": [ "Omonatlarni qanday turlari mavjud?", "Omonatlar turlaini ayt", "omonat turlari" ],
+      "responses": [ "Talab qilib olinguncha omonatlar, muddatli omonatlar, jamg'arma omonatlari." ]
+    },
+
+    {
+      "tag": "omonat",
+      "patterns": [ "Omonat o'zi nima?", "Omonat", "omonat nima?" ],
+      "responses": [ "Omonat — umumiy maʼnoda: saqlashga ishonib topshirilgan, ishonchli. Bir insonning ikkinchi insonga vaqtinchalik ishonib topshirgan narsasi ham omonat hisoblanadi. Bu nomoddiy qadriyatlarni (til, madaniyat, millat) va moddiy (narsalar, ko'chmas mulk) saqlash uchun berilgan deb ham tushuniladi." ]
+    },
+
+
+    {
+      "tag": "omonat ochish",
+      "patterns": [ "Qanday yoshdan boshlab mijozlar bank omonatini mustaqil ravishda ochishlari mumkin?", "Necha yoshdan boshlab omonat ochish mumkin?", "omonat ochish yoshi" ],
+      "responses": [ "16 yoshdan boshlab, barcha mijozlar bank omonatini mustaqil ravishda ochishlari mumkin.", "16 yosh" ]
+
+    },
+
+    {
+      "tag": "omonat miqdori",
+      "patterns": [ "Omonat qanday miqdorda ochishim mumkin?", "omonat miqdori", "omonat miqdori qancha?" ],
+      "responses": [ "Siz ochishingiz mumkin bo'lgan maksimal omonat miqdori bank tariflari bilan belgilanadi." ]
+
+    },
+
+    {
+      "tag": "omonat puli",
+      "patterns": [ "Bankomatlar orqali omonatdan pul yechish mumkinmi?" ],
+      "responses": [ "Afsuski, omonat mablag'larini bankomatlar orqali yechish imkoniyati mavjud emas.", "bankomatlar orqali yechish imkoniyati mavjud emas." ]
+
+    },
+
+    {
+      "tag": "omonat yechish",
+      "patterns": [ "Omonat miqdorini qanday yechib olish mumkin?", "Omonat pulini yechib olish", "omonat pul yechish" ],
+      "responses": [ "Omonat shakliga qarab, agar siz bank hududiy bo'linmasiga omonat qo'ygan bo'lsangiz, omonat daftarchasi va pasportni taqdim etish uchun omonat ochilgan joyga murojaat qilishingiz kerak. Agar onlayn omonatni ochgan bo'lsangiz, Zoomrad ilovasi orqali pulni yechib olishingiz mumkin." ]
+    },
+
+
+    {
+      "tag": "omonat muddati tugashi",
+      "patterns": [ "Omonat muddati tugagandan so'ng, men hali yechib olmagan pul mablag'larim nima bo'ladi?", "omonat muddati tugashi" ],
+      "responses": [ "Omonat muddati tugagandan so'ng pul mablag'lari muddatli hisobdan talab qilib olinguncha depozit hisobvarag'iga o'tkaziladi va omonatchining bankka murojaat qilguniga qadar u yerda saqlanadi." ]
+
+    },
+
+    {
+      "tag": "omonat yechish",
+      "patterns": [ "Men omonat butun miqdorini yechib olishim mumkinmi?", "omonat butun yechish", "omonat hammasini yechish" ],
+      "responses": [ "Ha, omonat muddati tugagandan so'ng va muddatidan oldin pul mablag'laringizni yechib olishingiz mumkin (batafsil ma'lumot uchun +998 71 230-77-77 raqamiga murojaat qiling)." ]
+
+    },
+
+    {
+      "tag": "omonat ochish",
+      "patterns": [ "Qanday omonat ochish mumkin?" ],
+      "responses": [ "Siz uchun qulay bo'lgan har qanday bankning hududiy bo'linmasiga pasport bilan murojaat qilishingiz va qulay omonat turini ochishingiz mumkin, yoki bankining rasmiy Zoomrad ilovasi orqali onlayn omonatni ochishingiz mumkin." ]
+    },
+
+
+    {
+      "tag": "kredit olish",
+      "patterns": [ "Men rasmiy ravishda ishlamayman, kredit olishim mumkinmi?", "men kredit olishim mumkinmi?", "kredit olish uchun talab" ],
+      "responses": [ "Hurmatli mijoz kredit olish uchun rasmiy daromad manbaiga ega boʻlishingiz lozim, Avtokredit boʻyicha boshlangʻich badal 30% va undan yuqori toʻlangan hollarda rasmiy daromad talab etilmaydi." ]
+    },
+
+    {
+      "tag": "kredit",
+      "patterns": [ "Kredit", "kredit nima?", "kredit o'zi nima?" ],
+      "responses": [ "Kredit bu pul mablagʻlari, tovar va xizmatlarni kelishilgan ustama (foiz) toʻlab qaytarib berish sharti bilan maʼlum muddatlarga qarzga berish. Qarzga mablagʻ beruvchi tomon kreditor, ssuda oluvchi tomon esa debitor (qarzdor) deyiladi" ]
+    },
+    {
+      "tag": "kredit olish",
+      "patterns": [ "Ipoteka kreditini olish uchun boshlangʻich toʻlovning eng kam miqdori qanday?" ],
+      "responses": [ "Davlat dasturlari asosida ajratiladigan ipoteka kreditlari boʻyicha boshlangʻich toʻlovning eng kam miqdori uy-joy qiymatining 15% miqdorida, bankning oʻz mablagʻlari hisobidan ajratiladigan ipoteka kreditlar boʻyicha boshlangʻich toʻlovning eng kam miqdori uy-joy qiymatining 25% miqdorida." ]
+    },
+
+    {
+      "tag": "kredit",
+      "patterns": [ "Ikkilamchi bozordan uy-joy olish uchun ipoteka krediti olish mumkinmi?" ],
+      "responses": [ "Bankning o‘z mablag‘lari hisobidan birlamchi va ikkilamchi bozordan koʻp qavatli uy-joylardagi kvartirani yoki yakka tartibdagi uy-joyni sotib olish uchun ipoteka krediti olish mumkin." ]
+    },
+    {
+      "tag": "kredit",
+      "patterns": [ "Iste'mol krediti qanday shaklda beriladi?" ],
+      "responses": [ "Moliyaviy iste’mol krediti berish iste’mol tovarlarini (xizmatlarni) ishlab chiqaruvchining yoki realizatsiya qiluvchi subyektning (yuridik va jismoniy shaxsning) bankdagi hisobvarag‘iga bank yoxud boshqa kredit tashkiloti tomonidan pul mablag‘lari o‘tkazish yo‘li bilan amalga oshiriladi." ]
+    },
+    {
+      "tag": "kredit",
+      "patterns": [ "Iste'mol kreditini qancha muddatga va qaysi foizga olishim mumkin?" ],
+      "responses": [ "Iste’mol kreditlari 3 yilgacha muddatga yillik 30% da ajratiladi." ]
+    },
+    {
+      "tag": "kredit",
+      "patterns": [ "Sizning bankda qanday Iste'mol kreditlari mavjud?", "Iste'mol kreditlari", "Iste'mol kreditlari mavjudmi" ],
+      "responses": [ "AT “Aloqabank” tomonidan jismoniy shaxslarning iste’mol ehtiyojlarini qondirish maqsadida barcha turdagi iste’mol tovarlar va xizmatlar uchun iste’mol kreditlari ajratiladi." ]
+    },
+    {
+      "tag": "Bank kartalari",
+      "patterns": [ "Jismoniy shaxslar uchun bank kartalarini qanday ochishim mumkin?" ],
+      "responses": [ "Bank kartasini Zoomrad mobil ilovasi orqali onlayn buyurtma qilishingiz yoki bankning istalgan HKXKM va KXKMlariga shaxsingizni tasdiqlovchi hujjat bilan kelib rasmiylashtirishingiz mumkin. Kartani chiqarish uchun komissiya bank tariflariga muvofiq amalga oshiriladi" ]
+    },
+
+    {
+      "tag": "Bank kartalari",
+      "patterns": [ "Kartani qanday blokdan chiqarishim mumkin?", "Kartani blokdan chiqarish" ],
+      "responses": [ "Hurmatli mijoz kartani istalgan oʻzingizga yaqin boʻlgan HKXKM va KXKMlariga shaxsingizni tasdiqlovchi hujjat bilan murojaat qilish orqali blokdan chiqarishingiz mumkin boʻladi (qoʻshimcha ma'lumot olish uchun +998 71 230-77-77 raqamiga murojaat qiling)." ]
+    },
+    {
+      "tag": "Bank kartalari",
+      "patterns": [ "Uzcard va Humo kartalari uchun SMS-xabarlarni qanday ulash mumkin?", "SMS-xabarlarni qanday ulash mumkin?"  , "sms xabarnoma"],
+      "responses": [ "Uzcard kartalarida - bankomat infokioskalar shuningdek, bankning HKXKM va KXKMlarida SMS-xabarlarni ulash mumkin. Humo kartalarida - bankning HKXKM va KXKMlarida SMS-xabarlarni ulash mumkin. Batafsil ma'lumot uchun bankning Kontakt-markaziga +998 71 230-77-77 raqami orqali murojaat qiling." ]
+    },
+    {
+      "tag": "Bank kartalari",
+      "patterns": [ "Kartaga mablagʻ tushgani haqida qanday ma'lumot olishim mumkin?", "pul tushgani haqida qanday ma'lumot olishim mumkin?", "pul tushishi" ],
+      "responses": [ "Bank kartangizga SMS xabarnomasini ulash orqali Zoomrad mobil ilovasi hamda bankomatlar, terminallar orqali balansni tekshirishingiz mumkin." ]
+    },
+
+    {
+      "tag": "Bank kartalari",
+      "patterns": [ "Bank korporativ kartalarini qanday ochishim mumkin?" , "korporotiv karta" ],
+      "responses": [ "Bank korporativ kartalari Korporativ mijozlar va patent orqali faoliyat yurituvchi bank mijozlarining arizalari asosida ochiladi." ]
+    },
+    {
+      "tag": "Bank kartalari",
+      "patterns": [ "Visa kartamdagi qoldiqni qanday tekshirishim mumkin?" , "visa karta" ],
+      "responses": [ "ATMlar va Aloqabank kassalari hamda bank kartangizga SMS-xabarnoma xizmati yoqilgan boʻlsa, mobil telefoningizga kelgan SMS – xabarnoma orqali bilishingiz mumkin." ]
+    },
+
+    {
+      "tag": "Bank kartalari",
+      "patterns": [ "Eski kartani yo'qotganda, yangi kartani ochish jarayoni qancha vaqt talab etadi?", "kartani yo'qotganda yangi kartani ochish muddati" ],
+      "responses": [ "3 ish kuni mobaynida." ]
+    },
+
+    {
+      "tag": "Bank kartalari",
+      "patterns": [ "Kartani yoʻqotib qoʻydim, nima qilishim kerak?" , "kartani yo'qotib qo'ydim" ],
+      "responses": [ "Hurmatli mijoz, Aloqabank respublikamiz bo'ylab keng HKXKM va KXKMlar tarmogʻiga ega, mijozlarimizning qulayligi uchun biz xaritada ularning joylashuvini, ish rejimini koʻrsatdik. Oʻzingiz uchun qulay HKXKM va KXKMlarda kartangizni yangidan ochtirishingiz mumkin." ]
+    }
+
+  ]
+}
